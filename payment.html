@@ -1,0 +1,1 @@
+<button onclick='pay()'>Pay</button><script src='https://checkout.razorpay.com/v1/checkout.js'></script><script>function pay(){var options={key:'YOUR_KEY_ID',amount:'100',currency:'INR',handler:function(){window.location='success.php';}};var r=new Razorpay(options);r.open();}</script>
